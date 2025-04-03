@@ -17,11 +17,10 @@ function Moduuli2T5(){
     
     numList.sort(numSort);
 
-    for(let i = 0; i < numList.length; i++){
-        console.log(numList[i]);
-    }
+    console.log(numList[i]);
+    
 }
 
 function numSort(a, b){
-    return b - a;
+    return a - b;
 }
